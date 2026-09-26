@@ -1,80 +1,35 @@
----
-title: "README — e-PhotoID Express (Testeurs & Distribution)"
-version: "1.0 — 26 septembre 2026"
-propriétaire: "Direction Technique — La Famille Maghen"
-révision: "À chaque campagne de test"
-documents_associés:
-  - "CONTRIBUTING.md"
-  - "CODE_OF_CONDUCT.md"
-  - "SECURITY.md"
-  - "LICENSE"
-  - "RECRUITMENT.md"
----
+# 👋 La Famille Maghen
 
-# 📱 e-PhotoID Express — Testeurs & Distribution
+**Laboratoire d'Innovation Familiale** — association loi 1901 d'Économie Sociale et Solidaire (RNA W343027898 · SIREN 883931222).
 
-[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-v1.3-ff69b4)](CODE_OF_CONDUCT.md)
-[![Contribuer](https://img.shields.io/badge/Contribuer-v1.0-orange)](CONTRIBUTING.md)
-[![Licence](https://img.shields.io/badge/Licence-Propriétaire-yellow)](LICENSE)
-
-> ⚠️ **Ce dépôt ne contient pas le code source d'e-PhotoID Express.** Le code est privé et n'est pas communiqué. Ce dépôt sert à **distribuer les builds de test** (Android, Windows) et à **accueillir les testeurs et contributeurs QA** de **La Famille Maghen**, association d'Économie Sociale et Solidaire (Loi 1901 | RNA W343027898).
+Notre mission : **unir pour bâtir et transformer la précarité en autonomie.**
+Notre méthode, 3 piliers : **Solidarité 🤝 · Travail 💼 · Développement 🚀**
 
 ---
 
-## 🎯 e-PhotoID Express, en bref
+## 🎯 Notre projet phare — e-PhotoID Express
 
-Application Flutter qui permet aux publics fragiles ou éloignés du numérique de réaliser des photos d'identité conformes aux normes **ANTS / ICAO**, à tarif solidaire, avec recadrage automatisé et validation humaine. Site public : [e-photo-id-express.maghen.eu](https://e-photo-id-express.maghen.eu/).
+Une application Flutter solidaire qui facilite l'accès aux photos d'identité conformes ANTS/ICAO, pour les publics fragiles ou éloignés du numérique. Hébergée en UE, sans reconnaissance faciale.
 
----
+📱 [e-photo-id-express.maghen.eu](https://e-photo-id-express.maghen.eu/)
 
-## 🧪 Devenir testeur
+## 🧪 Nous rejoindre en tant que testeur·euse
 
-1. **Manifestez-vous** via `contact@maghen.eu`, ou en répondant à une offre publiée — voir [`RECRUITMENT.md`](RECRUITMENT.md).
-2. Vous recevez une **invitation** sur notre espace de gestion des tests (Jira + BesTest).
-3. Vous récupérez le build à tester (ci-dessous), exécutez les cas de test fournis, et rapportez les anomalies dans l'espace de gestion des tests.
+Le code source d'e-PhotoID Express est privé, mais nous accueillons volontiers des testeurs et des contributeurs QA sur nos builds de test :
+👉 [e-photo-id-express-client-test-releases](https://github.com/La-Famille-Maghen/e-photo-id-express-client-test-releases)
 
-> Les cas de test formels et le suivi des anomalies se font via **Jira/BesTest**, pas via les *Issues* GitHub de ce dépôt.
+## 💼 Offres de stage et de bénévolat
 
-## 📦 Récupérer un build de test
+Nous recrutons régulièrement des stagiaires et bénévoles pour nos projets numériques. Candidature en ligne ou par e-mail : `recrutement@maghen.eu`.
 
-- **Android** et **Windows** : onglet [Releases](https://github.com/la-famille-maghen/e-photo-id-express-client-test-releases/releases) — convention de nommage `ePhotoID-<version>-<date>-<build>-<plateforme>.<ext>`.
-- **Web** : accès direct via l'URL de recette communiquée avec votre invitation (pas de fichier à télécharger).
+## 📫 Nous contacter
 
-⚠️ **Utilisez uniquement des comptes et données de test** — jamais de données personnelles réelles. Voir [`SECURITY.md`](SECURITY.md).
-
-## 🐛 Signaler un problème
-
-| Type de problème | Canal |
-|---|---|
-| Anomalie applicative (bug dans e-PhotoID Express) | Votre espace Jira / BesTest |
-| Problème sur ce dépôt (lien cassé, erreur de doc) | [Issues](https://github.com/la-famille-maghen/e-photo-id-express-client-test-releases/issues) de ce dépôt |
-| Vulnérabilité de sécurité | **Ne créez jamais d'issue publique** — voir [`SECURITY.md`](SECURITY.md) |
-
-## 🤝 Gouvernance de ce dépôt
-
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) — comment contribuer (tests aujourd'hui, code potentiellement demain)
-- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — règles de conduite
-- [`SECURITY.md`](SECURITY.md) — politique de sécurité et divulgation responsable
-- [`LICENSE`](LICENSE) — régime juridique (propriétaire)
-- [`RECRUITMENT.md`](RECRUITMENT.md) — offres de stage et de bénévolat en cours
-
-## 📫 Contacts
-
-- 🌐 Site vitrine : [maghen.eu](https://maghen.eu/)
-- 📱 Application : [e-photo-id-express.maghen.eu](https://e-photo-id-express.maghen.eu/)
-- 🛡️ Espace comptes (SSO) : [accounts.maghen.eu](https://accounts.maghen.eu/)
-- 📬 Contact général : `contact@maghen.eu`
+- 🌐 Site : [maghen.eu](https://maghen.eu/)
+- 🛡️ SSO : [accounts.maghen.eu](https://accounts.maghen.eu/)
+- 📬 Contact : `contact@maghen.eu`
 - 🔐 DPO / RGPD : `dpo@maghen.eu`
 - 💼 [LinkedIn](https://www.linkedin.com/company/la-famille-maghen/) · [Facebook](https://www.facebook.com/p/La-Famille-Maghen-61590771001352/)
 
 ---
 
-## 📋 Historique des versions
-
-| Version | Date | Modifications |
-|---|---|---|
-| 1.0 | 26/09/2026 | Version initiale — dépôt dédié à la distribution des builds de test et à l'accueil des testeurs, distinct du dépôt de code source (privé) |
-
----
-
-*© 2026 — La Famille Maghen — Tous droits réservés.*
+*© 2026 — La Famille Maghen — Solidarité · Travail · Développement*
